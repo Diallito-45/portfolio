@@ -6,6 +6,7 @@
   * For more info and help: https://bootstrapmade.com/php-email-form/
   */
 
+  # XXX: a revoir apres
   // Replace contact@example.com with your real receiving email address
   $receiving_email_address = 'contact@example.com';
 
@@ -17,7 +18,7 @@
 
   $contact = new PHP_Email_Form;
   $contact->ajax = true;
-  
+
   $contact->to = $receiving_email_address;
   $contact->from_name = $_POST['name'];
   $contact->from_email = $_POST['email'];
